@@ -7,6 +7,7 @@
 
 }
 
+/*banner css*/
 .banner {
     background: url(../resources/Banner\ Image.png);
     max-width: 1320px;
@@ -41,6 +42,7 @@
     width: 630px;
 }
 
+/*Discount section in middle css*/
 #discount {
     margin-top: 120px;
     color: #F00;
@@ -74,6 +76,7 @@
     margin-top: 48px;
 }
 
+/*welcome to join css*/
 .body_welcome_banner {
 
     max-width: 1320px;
@@ -111,6 +114,20 @@
     text-align: left;
 }
 
+#join_now {
+
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    border: none;
+    background: none;
+
+}
+
 .body_welcome_banner div img {
     position: absolute;
     transform: translate(250%, -70%);
@@ -121,6 +138,7 @@
     mix-blend-mode: multiply;
 }
 
+/*party location and details css*/
 .party_location {
 
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -140,6 +158,7 @@
     font-size: 32px;
     font-weight: 600;
     max-width: 692px;
+    line-height: 56px;
     text-align: center;
     transform: translate(70%, 15%);
 }
@@ -157,20 +176,64 @@ span {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    position:absolute;
+    position: absolute;
     transform: translate(330%, 300%);
     border: none;
 }
-#join_now{
-    
-    padding: 16px 32px;
-    border-radius: 8px;
-    color: #FFF;
+
+/*New best offer css*/
+
+.new_best_year {
+    max-width: 1320px;
+    height: 600px;
+    margin:auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.new_best_year h4 {
+    padding-top: 120px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.new_best_year h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.new_best_year p {
+    color: rgba(8, 8, 8, 0.6);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-weight: 700;
-    position:absolute;
-    border: none;
-    background: none;
-  
+    font-weight: 400;
+    margin-top: 22px;
+    max-width: 390px;
 }
+
+.new_best_year h2 {
+    padding-top: 120px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+#circle_img{
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 10px;
+    position: absolute;
+    transform: translateY(10%);
+}
+#circle_img_leftside_content{
+    position: absolute;
+    transform: translateX(230%);
+}
+
