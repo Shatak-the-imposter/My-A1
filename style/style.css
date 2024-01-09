@@ -287,13 +287,16 @@ span {
 
 #women {
     position: absolute;
-    transform: translate(207.5%, 10%);
+    transform: translate(207.5%, 7.5%);
 }
 
 #Celebration_box {
-    background-color: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
-    background-blend-mode: screen;
     mix-blend-mode: screen;
+}
+
+#fifty_parcent_discount {
+    position: static;
+    transform: translate(-20%, 10%);
 }
 
 /*portfolio */
@@ -504,7 +507,7 @@ footer {
     padding-top: 20px;
 }
 
-#Unsubscribe{
+#Unsubscribe {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
