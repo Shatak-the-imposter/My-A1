@@ -454,7 +454,9 @@ background-color: rgb(248, 179, 96);
     margin-left: 33.5%;
     border: none;
 }
-
+#subscriber_btn:hover{
+    color: black;
+}
 /*Footer section*/
 footer {
     background-color: #070211;
@@ -504,6 +506,7 @@ footer {
     margin-left: 42%;
     margin-top: 48px;
     margin-bottom: 48px;
+    position: absolute;
 }
 
 /*Copyright section*/
@@ -526,4 +529,14 @@ footer {
     font-weight: 700;
     border: none;
     background: none;
+}
+
+#Unsubscribe:hover{
+
+    color: #F00;
+}
+
+.call_web_icon{
+    position: relative;
+   left: 26%;
 }
