@@ -502,11 +502,14 @@ footer {
     width: 1320px;
     height: 70px;
     margin: auto;
-    gap: 24px;
-    margin-left: 42%;
     margin-top: 48px;
     margin-bottom: 48px;
-    position: absolute;
+    gap: 24px;
+}
+.footer_icon ul{
+    position: relative;
+    width: 100%;
+    margin-left: 42%;
 }
 
 /*Copyright section*/
