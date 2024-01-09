@@ -115,7 +115,6 @@
 }
 
 #join_now {
-
     padding: 16px 32px;
     border-radius: 8px;
     color: #FFF;
@@ -125,9 +124,10 @@
     position: absolute;
     border: none;
     background: none;
-
 }
-
+#join_now:hover{
+    color: #F00;
+}
 .body_welcome_banner div img {
     position: absolute;
     transform: translate(250%, -70%);
@@ -179,6 +179,10 @@ span {
     position: absolute;
     transform: translate(330%, 300%);
     border: none;
+}
+#join:hover{
+color: black;
+background-color: rgb(248, 179, 96);
 }
 
 /*New best offer css*/
@@ -348,6 +352,10 @@ span {
     box-shadow: 5px 7px rgb(221, 240, 246);
     border-radius: 16px;
 }
+.proucts_display1 div img:hover{
+    background-color: gray;
+    box-shadow: 10px 10px rgb(81, 183, 214);
+}
 
 .proucts_display2 {
     display: flex;
@@ -363,6 +371,11 @@ span {
     box-shadow: 5px 7px rgb(221, 240, 246);
     border-radius: 16px;
 
+}
+
+.proucts_display2 div img:hover{
+    background-color: gray;
+    box-shadow: 10px 10px rgb(81, 183, 214);
 }
 
 /*Subscriber section*/
